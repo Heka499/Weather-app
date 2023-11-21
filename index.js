@@ -4,6 +4,18 @@ const weatherBox = document.querySelector('.weather-box');
 const weatherDetails = document.querySelector('.weather-details');
 const error404 = document.querySelector('.not-found');
 const temperatureToggle = document.querySelector('.temperature-toggle');
+const searchInput = document.querySelector('.search-box input');
+
+// event listener for the "Enter" key press
+searchInput.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        
+        event.preventDefault();
+
+        
+        search.click();
+    }
+});
 
 search.addEventListener('click', () => {
     
