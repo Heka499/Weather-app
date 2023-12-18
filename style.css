@@ -146,6 +146,13 @@ body{
     font-weight: 500;
 }
 
+.temperature-toggle {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
 .not-found{
     width: 100%;
     text-align: center;
